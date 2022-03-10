@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500&family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+@import url('http://fonts.cdnfonts.com/css/rockwell-nova');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1:'Montserrat', sans-serif;
+    --font2:'Reem Kufi', sans-serif;
+    --font3:'Cascadia Code', sans-serif;
+    --font4: 'Rockwell Nova', sans-serif;
+    --font5:'Roboto', sans-serif;
+    --v: #121432;
+    --o:#E8523F;
+    --y:#F8B849;
+    --g:#555;
+}
+
+body{
+    overflow: hidden;
+}
+
+
+#dash{
+    position: absolute;
+    font-size: 1.5rem;
+    width: 15rem;
+    background-color: var(--v);
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#dashInner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 20rem;
+    font-family: var(--font5);
+}
+#dashInner a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav{
+    font-family:var(--font3);
+    color: #fff;
+    font-size: 1.75rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#top{
+    margin-left: 15rem;
+    padding-top: 40px;
+    font-family: var(--font2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#btn{
+    padding: 20px 100px;
+    color: #fff;
+    background-color: var(--o);
+    border-radius: 15px;
+}
+#btn1{
+    padding: 20px 100px;
+    color: #fff;
+    background-color: var(--y);
+    border-radius: 15px;
+}
+#main{
+    border: 3px solid var(--y);
+    margin: 2rem 10rem 2rem 25rem;
+    padding: 3rem 20px 5px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+#name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+}
+#nameHolder{
+    font-size: 1rem;
+    font-family: var(--font2);
+    background-color: #B2B0B6;
+    outline: none;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.anonymous{
+    cursor: not-allowed;
+}
+#btn2{
+    font-size: 1rem;
+    font-family: var(--font1);
+    background-color: #B2B0B6;
+    outline: none;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 5px;
+}
+#btn2 a{
+    color:#111;
+    font-weight: 600;
+}
+
+
+textarea{
+    height: 20rem;
+    width: 40rem;
+    padding: 20px;
+    background-color: var(--v);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font2);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    word-spacing: 3px;
+    overflow-y: scroll;
+}
+
+textarea::-webkit-scrollbar{
+    display: none;
+}
+input[type="submit"]{
+    font-size: 1rem;
+    font-family: var(--font1);
+    background-color: var(--y);
+    outline: none;
+    border: none;
+    padding: 10px 150px;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+#btn3{
+    font-family: var(--font1);
+    background-color: #000;
+    outline: none;
+    border: none;
+    padding: 5px 120px;
+    border-radius: 5px;
+}
+#radio{
+    font-family: var(--font1);
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35rem;
+}
+
+input[type="radio"]{
+    margin-right: 10px;
+}

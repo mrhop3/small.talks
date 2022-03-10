@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500&family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+@import url('http://fonts.cdnfonts.com/css/rockwell-nova');
+
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root{
+    --font1:'Montserrat', sans-serif;
+    --font2:'Reem Kufi', sans-serif;
+    --font3:'Cascadia Code', sans-serif;
+    --font4: 'Rockwell Nova', sans-serif;
+    --v: #121432;
+    --o:#E8523F;
+    --y:#F8B849;
+    --g:#555;
+}
+html{
+    overflow: hidden;
+}
+body{
+    background-color:var(--v);
+}
+nav{
+    font-family:var(--font3);
+    color: #fff;
+    font-size: 1.75rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+#home{
+    border: 3px solid #fff;
+    border-radius: 15px;
+    margin: 7rem 20rem 7rem 18rem;
+}
+#txt{
+    font-size: 2rem;
+    font-family: var(--font4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 7rem 10rem;
+}
+
+#con a{
+    color: #111;
+    text-decoration: none;
+}
+
+#con{
+    font-size: 1.4rem;
+    font-style: bold;
+    font-family: var(--font1);
+    cursor: pointer;
+    border: 2px solid #fff;
+    color: #111;
+    border-radius: 15px;
+    margin: 5rem 20.5rem;
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
